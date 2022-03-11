@@ -1021,7 +1021,7 @@
      - healthz server bind address for the kube-proxy replacement. To enable set the value to '0.0.0.0:10256' for all ipv4 addresses and this '[::]:10256' for all ipv6 addresses. By default it is disabled.
      - string
      - ``""``
-   * - l2NeighDiscovery.arping-refresh-period
+   * - l2NeighDiscovery.refreshPeriod
      - Override the agent's default neighbor resolution refresh period.
      - string
      - ``"30s"``
